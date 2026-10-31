@@ -1,8 +1,8 @@
-from fastapi import FastAPI 
-  
-from app import __version__ 
-from app.operations import somar 
-  
+from fastapi import FastAPI
+
+from app import __version__
+from app.operations import somar
+
 app = FastAPI(title="Calculadora API", version=__version__) 
   
   
